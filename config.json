@@ -1,10 +1,10 @@
 {
-  "serverName": "Fill server name here",
-  "serverIp": "example.com",
-  "bedrockPort": 19132,
+  "serverName": "Whale MC",
+  "serverIp": "WhaleMC.aternos.me:19163",
+  "bedrockPort": 19163,
   "bedrockPlayersCanJoin": true, 
-  "discordLink": "https://discord.gg/S763GafZPR",
-  "logoPath": "logo.jpg",
+  "discordLink": "https://discord.gg/ZCtKVPKsUm",
+  "logoPath": "file_00000000119481faafa67ed6f13a8a0.png",
   "defaultColour": "red",
   "_defaultColourHelp": "Choose red, blue, yellow, purple, white, pink, or orange."
 }
