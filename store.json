@@ -148,7 +148,7 @@
     {
       "name": "VIP",
       "price": { "INR": 449, "USD": 4.99 },
-      "colour": "gold",
+      "colour": "yellow",
       "tagline": "A perfect first step to support the server.",
       "perks": [
         "Coloured name in chat",
@@ -157,12 +157,12 @@
         "VIP role in Discord"
       ],
       "featured": false,
-      "badge": ""
+      "badge": "Normal"
     },
     {
-      "name": "VIP+",
+      "name": "KING",
       "price": { "INR": 749, "USD": 7.99 },
-      "colour": "#a855f7",
+      "colour": "gold",
       "tagline": "More homes, more commands, more fun.",
       "perks": [
         "Everything in VIP",
@@ -172,12 +172,12 @@
         "Monthly cosmetic crate"
       ],
       "featured": false,
-      "badge": ""
+      "badge": "Popular"
     },
     {
-      "name": "MVP",
+      "name": "BOSS",
       "price": { "INR": 899, "USD": 9.99 },
-      "colour": "blue",
+      "colour": "green",
       "tagline": "Stand out everywhere you go.",
       "perks": [
         "Everything in VIP+",
@@ -192,7 +192,7 @@
     {
       "name": "GOD",
       "price": { "INR": 1799, "USD": 19.99 },
-      "colour": "red",
+      "colour": "magenta",
       "tagline": "The full package for serious players.",
       "perks": [
         "Everything in MVP",
@@ -202,7 +202,7 @@
         "Private support channel in Discord"
       ],
       "featured": false,
-      "badge": "Ultimate"
+      "badge": "Premium"
     }
   ]
 }
