@@ -20,7 +20,7 @@
 
   "redirect": {
     "_help": "Where 'Buy now' / 'Continue to payment' sends players when the item has no orderLink of its own. Leave it empty to use the Discord link from config.json.",
-    "defaultOrderLink": ""
+    "defaultOrderLink": "https://discord.gg/3EhPeMGb2T"
   },
 
   "pages": {
