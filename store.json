@@ -203,6 +203,21 @@
       ],
       "featured": false,
       "badge": "Premium"
-    }
+    },
+    {
+      "name": "WHALE+",
+      "price": { "INR": 1999, "USD": 21.55 },
+      "colour": "blue",
+      "tagline": "The full package for serious players.",
+      "perks": [
+        "Everything in MVP",
+        "Unlimited /home slots",
+        "Cosmetic pet and particle trail",
+        "Early access to new features",
+        "Private support channel in Discord"
+      ],
+      "featured": false,
+      "badge": "Ultimate"
+    }    
   ]
 }
