@@ -85,7 +85,7 @@
           "name": "7,500 coins",
           "amount": "7.5k",
           "image": "assets/coin.png",
-          "price": { "INR": 1199, "USD": 12.94 },
+          "price": { "INR": 1199, "USD": 13.00 },
           "colour": "red",
           "tagline": "Premium for premium players.",
           "perks": ["7,500 in-game coins", "+300 bonus coins"],
@@ -206,7 +206,7 @@
     },
     {
       "name": "WHALE+",
-      "price": { "INR": 1999, "USD": 21.94 },
+      "price": { "INR": 1999, "USD": 21.67 },
       "colour": "blue",
       "tagline": "The full package for serious players.",
       "perks": [
