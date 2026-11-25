@@ -20,7 +20,7 @@
 
   "redirect": {
     "_help": "Where 'Buy now' / 'Continue to payment' sends players when the item has no orderLink of its own. Leave it empty to use the Discord link from config.json.",
-    "defaultOrderLink": "https://discord.gg/3EhPeMGb2T"
+    "defaultOrderLink": ""
   },
 
   "pages": {
@@ -35,7 +35,7 @@
       "boardText": "Every rank is applied automatically within a few minutes.",
       "note": "Ranks are applied automatically within a few minutes of payment. Need help? Ask in Discord.",
       "buttonText": "Order Now",
-      "orderLink": "https://discord.gg/3EhPeMGb2T"
+      "orderLink": ""
     },
 
     "coins": {
@@ -52,46 +52,35 @@
           "name": "1,000 coins",
           "amount": "1K",
           "image": "assets/coin.png",
-          "price": { "INR": 99, "USD": 1.07 },
-          "colour": "green",
+          "price": { "INR": 99, "USD": 0.99 },
+          "colour": "gold",
           "tagline": "A small top-up for everyday shopping.",
           "perks": ["1,000 in-game coins", "Added to your balance instantly"],
           "featured": false,
           "badge": ""
         },
         {
-          "name": "2,500 coins",
-          "amount": "2.5K",
+          "name": "5,000 coins",
+          "amount": "5K",
           "image": "assets/coin.png",
           "price": { "INR": 399, "USD": 4.99 },
-          "colour": "gold",
+          "colour": "#eab308",
           "tagline": "Most popular pack with bonus coins.",
-          "perks": ["2,500 in-game coins", "+100 bonus coins"],
+          "perks": ["5,000 in-game coins", "+500 bonus coins"],
           "featured": true,
           "badge": "Popular"
         },
         {
-          "name": "5,000 coins",
-          "amount": "5K",
+          "name": "12,000 coins",
+          "amount": "12K",
           "image": "assets/coin.png",
           "price": { "INR": 799, "USD": 9.99 },
           "colour": "orange",
           "tagline": "Best value for regular players.",
-          "perks": ["5,000 in-game coins", "+200 bonus coins"],
+          "perks": ["12,000 in-game coins", "+2,000 bonus coins"],
           "featured": false,
           "badge": "Best value"
-        },
-        {
-          "name": "7,500 coins",
-          "amount": "7.5K",
-          "image": "assets/coin.png",
-          "price": { "INR": 1199, "USD": 12.94 },
-          "colour": "red",
-          "tagline": "Premium for premium players.",
-          "perks": ["7,500 in-game coins", "+300 bonus coins"],
-          "featured": false,
-          "badge": "Premium"
-        }        
+        }
       ]
     },
 
@@ -144,11 +133,11 @@
 
   "_ranksHelp": "Ranks are text only - no artwork is shown on rank cards or the rank detail page. Copy a rank block { ... } to add another rank and delete a block to remove one. 'colour' can be a name (red, blue, green, teal, gold, ...) or any hex value such as #22c55e. 'price' can be per currency, one plain number in the base currency, or ready-made text like \"$4.99\". 'featured': true makes it the most popular rank. 'orderLink' is optional - leave it empty to use redirect.defaultOrderLink, then your Discord link.",
 
-  "ranks": {
+  "ranks": [
     {
       "name": "VIP",
       "price": { "INR": 449, "USD": 4.99 },
-      "colour": "yellow",
+      "colour": "gold",
       "tagline": "A perfect first step to support the server.",
       "perks": [
         "Coloured name in chat",
@@ -157,12 +146,12 @@
         "VIP role in Discord"
       ],
       "featured": false,
-      "badge": "Normal"
+      "badge": ""
     },
     {
-      "name": "KING",
+      "name": "VIP+",
       "price": { "INR": 749, "USD": 7.99 },
-      "colour": "gold",
+      "colour": "#a855f7",
       "tagline": "More homes, more commands, more fun.",
       "perks": [
         "Everything in VIP",
@@ -172,12 +161,12 @@
         "Monthly cosmetic crate"
       ],
       "featured": false,
-      "badge": "Popular"
+      "badge": ""
     },
     {
-      "name": "BOSS",
+      "name": "MVP",
       "price": { "INR": 899, "USD": 9.99 },
-      "colour": "green",
+      "colour": "blue",
       "tagline": "Stand out everywhere you go.",
       "perks": [
         "Everything in VIP+",
@@ -192,22 +181,7 @@
     {
       "name": "GOD",
       "price": { "INR": 1799, "USD": 19.99 },
-      "colour": "magenta",
-      "tagline": "The full package for serious players.",
-      "perks": [
-        "Everything in MVP",
-        "Unlimited /home slots",
-        "Cosmetic pet and particle trail",
-        "Early access to new features",
-        "Private support channel in Discord"
-      ],
-      "featured": false,
-      "badge": "Premium"
-    },
-    {
-      "name": "WHALE+",
-      "price": { "INR": 1999, "USD": 21.55 },
-      "colour": "blue",
+      "colour": "red",
       "tagline": "The full package for serious players.",
       "perks": [
         "Everything in MVP",
