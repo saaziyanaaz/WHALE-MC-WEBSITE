@@ -61,7 +61,7 @@
         },
         {
           "name": "2,500 coins",
-          "amount": "5K",
+          "amount": "2.5K",
           "image": "assets/coin.png",
           "price": { "INR": 399, "USD": 4.99 },
           "colour": "gold",
