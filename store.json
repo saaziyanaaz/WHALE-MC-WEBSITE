@@ -53,34 +53,45 @@
           "amount": "1K",
           "image": "assets/coin.png",
           "price": { "INR": 99, "USD": 0.99 },
-          "colour": "gold",
+          "colour": "green",
           "tagline": "A small top-up for everyday shopping.",
           "perks": ["1,000 in-game coins", "Added to your balance instantly"],
           "featured": false,
           "badge": ""
         },
         {
-          "name": "5,000 coins",
-          "amount": "5K",
+          "name": "2,500 coins",
+          "amount": "2.5K",
           "image": "assets/coin.png",
           "price": { "INR": 399, "USD": 4.99 },
-          "colour": "#eab308",
+          "colour": "gold",
           "tagline": "Most popular pack with bonus coins.",
-          "perks": ["5,000 in-game coins", "+500 bonus coins"],
+          "perks": ["2,500 in-game coins", "+100 bonus coins"],
           "featured": true,
           "badge": "Popular"
         },
         {
-          "name": "12,000 coins",
-          "amount": "12K",
+          "name": "5,000 coins",
+          "amount": "5k",
           "image": "assets/coin.png",
           "price": { "INR": 799, "USD": 9.99 },
           "colour": "orange",
           "tagline": "Best value for regular players.",
-          "perks": ["12,000 in-game coins", "+2,000 bonus coins"],
+          "perks": ["5,000 in-game coins", "+200 bonus coins"],
           "featured": false,
           "badge": "Best value"
         }
+        {
+          "name": "7,500 coins",
+          "amount": "7.5k",
+          "image": "assets/coin.png",
+          "price": { "INR": 799, "USD": 9.99 },
+          "colour": "red",
+          "tagline": "Best value for regular players.",
+          "perks": ["7,500 in-game coins", "+300 bonus coins"],
+          "featured": false,
+          "badge": "Premium"
+        }        
       ]
     },
 
