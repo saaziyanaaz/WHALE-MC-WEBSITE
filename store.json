@@ -61,7 +61,7 @@
         },
         {
           "name": "2,500 coins",
-          "amount": "2.5K",
+          "amount": "5K",
           "image": "assets/coin.png",
           "price": { "INR": 399, "USD": 4.99 },
           "colour": "gold",
@@ -72,7 +72,7 @@
         },
         {
           "name": "5,000 coins",
-          "amount": "5k",
+          "amount": "5K",
           "image": "assets/coin.png",
           "price": { "INR": 799, "USD": 9.99 },
           "colour": "orange",
@@ -80,14 +80,14 @@
           "perks": ["5,000 in-game coins", "+200 bonus coins"],
           "featured": false,
           "badge": "Best value"
-        }
+        },
         {
           "name": "7,500 coins",
           "amount": "7.5k",
           "image": "assets/coin.png",
-          "price": { "INR": 799, "USD": 9.99 },
+          "price": { "INR": 1199, "USD": 12.94 },
           "colour": "red",
-          "tagline": "Best value for regular players.",
+          "tagline": "Premium for premium players.",
           "perks": ["7,500 in-game coins", "+300 bonus coins"],
           "featured": false,
           "badge": "Premium"
