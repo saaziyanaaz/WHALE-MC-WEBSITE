@@ -171,8 +171,8 @@
         "Priority queue when the server is full",
         "Monthly cosmetic crate"
       ],
-      "featured": false,
-      "badge": ""
+      "featured": true,
+      "badge": "Popular"
     },
     {
       "name": "BOSS",
@@ -180,13 +180,13 @@
       "colour": "green",
       "tagline": "Stand out everywhere you go.",
       "perks": [
-        "Everything in VIP+",
+        "Everything in KING",
         "Exclusive MVP chat prefix",
         "Custom join message",
         "Extra claim blocks",
         "MVP role in Discord"
       ],
-      "featured": true,
+      "featured": false,
       "badge": "Best value"
     },
     {
@@ -195,7 +195,7 @@
       "colour": "magenta",
       "tagline": "The full package for serious players.",
       "perks": [
-        "Everything in MVP",
+        "Everything in BOSS",
         "Unlimited /home slots",
         "Cosmetic pet and particle trail",
         "Early access to new features",
@@ -210,7 +210,7 @@
       "colour": "blue",
       "tagline": "The full package for serious players.",
       "perks": [
-        "Everything in MVP",
+        "Everything in GOD",
         "Unlimited /home slots",
         "Cosmetic pet and particle trail",
         "Early access to new features",
