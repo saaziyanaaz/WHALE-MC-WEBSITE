@@ -218,24 +218,6 @@
       ],
       "featured": false,
       "badge": "Ultimate"
-         }    
-       ]
-     }
-   },
-
-  "whale+": [
-    {
-      "name": "VIP",
-      "price": { "INR": 449, "USD": 4.99 },
-      "colour": "yellow",
-      "tagline": "A perfect first step to support the server.",
-      "perks": [
-        "Coloured name in chat",
-        "2 extra /home slots",
-        "/fly in the lobby",
-        "VIP role in Discord"
-      ],
-      "featured": false,
-      "badge": "Normal"
-    },
-    
+  }    
+ ]
+}
