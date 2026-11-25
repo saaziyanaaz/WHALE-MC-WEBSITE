@@ -144,7 +144,7 @@
 
   "_ranksHelp": "Ranks are text only - no artwork is shown on rank cards or the rank detail page. Copy a rank block { ... } to add another rank and delete a block to remove one. 'colour' can be a name (red, blue, green, teal, gold, ...) or any hex value such as #22c55e. 'price' can be per currency, one plain number in the base currency, or ready-made text like \"$4.99\". 'featured': true makes it the most popular rank. 'orderLink' is optional - leave it empty to use redirect.defaultOrderLink, then your Discord link.",
 
-  "ranks": [
+  "ranks": {
     {
       "name": "VIP",
       "price": { "INR": 449, "USD": 4.99 },
@@ -218,6 +218,24 @@
       ],
       "featured": false,
       "badge": "Ultimate"
-    }    
-  ]
-}
+         }    
+       ]
+     }
+   },
+
+  "whale+": [
+    {
+      "name": "VIP",
+      "price": { "INR": 449, "USD": 4.99 },
+      "colour": "yellow",
+      "tagline": "A perfect first step to support the server.",
+      "perks": [
+        "Coloured name in chat",
+        "2 extra /home slots",
+        "/fly in the lobby",
+        "VIP role in Discord"
+      ],
+      "featured": false,
+      "badge": "Normal"
+    },
+    
