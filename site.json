@@ -11,8 +11,7 @@
     "_help": "Turn whole pages on or off. A page that is off disappears from every menu and link.",
     "ranks": true,
     "coins": true,
-    "keys": true,
-    "whale+": true
+    "keys": true
   },
 
   "gameModes": ["survival", "lifesteal", "ffa", "economy"],
